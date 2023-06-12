@@ -3,7 +3,7 @@ var database = require("../database/config");
 function buscarUltimasMedidas() {
 
     instrucaoSql = `
-           select count(*), 
+           select count(*) as quantidade, 
            carroFav
         from usuario
         group by carroFav`;
