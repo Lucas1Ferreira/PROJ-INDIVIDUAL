@@ -28,12 +28,6 @@ CREATE TABLE aviso (
 	FOREIGN KEY (fk_usuario) REFERENCES usuario(id)
 );
 
-
-CREATE TABLE quiz(
-	idQuiz int AUTO_INCREMENT,
-	fkUsuario int,
-	pontos int,
-	foreign key (fkUsuario) references usuario(id),
-    primary key (idQuiz,fkUsuario));
     
+
     
