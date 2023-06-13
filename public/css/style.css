@@ -200,7 +200,7 @@ button {
 
 input {
   margin-bottom: 10px;
-  border: 2px solid #32b9cd;
+  border: 2px solid #e3b062;
   padding: 10px;
   text-align: center;
   border-radius: 10px;
@@ -242,6 +242,9 @@ input {
   text-decoration: none;
   color: white;
 }
+.janela{
+  background-color: #161618;
+}
 
 .header-left {
   position: fixed;
@@ -256,6 +259,7 @@ input {
   align-items: center;
   border-right: 3px solid #e3b062;
   background-color: black;
+  border-radius: 80px;
   /* border: 3px solid pink; */
 }
 
@@ -294,8 +298,9 @@ input {
 .btn-nav {
   width: 40%;
   color: white;
-  background-color: #e6005a;
-  border-radius: 5px;
+  border: 2px solid #e3b062;
+  background-color: #e33b29;
+  border-radius: 20px;
   text-align: center;
   padding: 2% 5%;
 }
@@ -303,14 +308,14 @@ input {
 .btn-nav-white {
   width: 40%;
   background-color: white;
-  border: 3px solid #e6005a;
-  border-radius: 5px;
+  border: 3px solid #e3b052;
+  border-radius: 20px;
   text-align: center;
   padding: 2% 5%;
 }
 
 .btn-nav-white h3 {
-  color: #e6005a;
+  color: #e33b29 ;
   padding: 0;
   margin: 0;
 }
@@ -325,13 +330,14 @@ input {
   margin: 0;
   padding: 0;
   width: 20%;
-  background-color: #32b9cd;
+  background-color: #e33b29 ;
   color: white;
   border-radius: 10px;
   text-align: center;
   padding: 10px 15px;
   margin-bottom: 100px;
   cursor: pointer;
+  border: 2px solid #e3b062;
 }
 
 /* pagina extra - simulador */

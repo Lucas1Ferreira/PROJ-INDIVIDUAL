@@ -43,7 +43,7 @@ body {
 .dash-right .avisos .div-form textarea {
   width: 100%;
   /* color: #E6005A; */
-  border: 3px solid #e6005a;
+  border: 3px solid #e3b062;
   background-color: white;
   border-radius: 5px;
 }
@@ -57,7 +57,7 @@ body {
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: #e6005a;
+  background-color: #e33b29;
   width: 120px;
 }
 
@@ -70,18 +70,19 @@ body {
   font-size: 14px;
   padding: 5px 8px;
   color: white;
-  background-color: #e6005a;
+  background-color: #e33b29;
   width: 80px;
 }
 
 .publicacao {
+  border-radius: 36px;
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  border-bottom: 3px solid #e6005a;
+  border: 3px solid #e3b062;
   padding: 20px;
 }
 
@@ -94,7 +95,7 @@ body {
 }
 
 .div-results .feed-container {
-  background-color: #212124;
+  background-color: #161618;
   border-radius: 5px;
   margin-bottom: 80px;
 }
@@ -239,7 +240,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   padding: 10px 15px;
-  color: #e6005a;
+  color: #e33b29;
   background-color: white;
   margin: 5px;
   border-radius: 3px;
@@ -247,12 +248,12 @@ body {
 
 .btn-pink {
   color: white;
-  background-color: #e6005a;
+  background-color: #e33b29;
 }
 
 .btn-white {
-  color: #e6005a;
-  background-color: white;
+  color: #fff;
+  background-color: #e33b29;
 
 }
 
@@ -274,5 +275,6 @@ body {
 
 canvas {
   width: 100% !important;
-  height: 100% !important;
+  height: 80% !important;
+  margin-left: 10px;
 }

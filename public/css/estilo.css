@@ -34,7 +34,7 @@ body {
 
 .header a {
   text-decoration: none;
-  color: #e3b062;
+  color: #fff;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -50,6 +50,15 @@ body {
   justify-content: space-between;
   list-style: none;
   color: #dbc659;
+}
+.navbar li{
+  border:2px solid #e33b29;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.navbar li:hover{
+  background-color: #e33b29;
 }
 
 .titulo {
@@ -239,8 +248,9 @@ body {
 .footer {
   height: var(--tamanho-footer);
   width: 100%;
-  background-color: #32b9cd;
+  background-color: #e33b29;
   color: #fff;
+  border-top: 2px solid #e33b29;
 }
 
 .footer h4 {
@@ -275,6 +285,7 @@ body {
   
   
 }
+
 .hist{
   border-top: 2px solid #e33b29;
   border-bottom: 2px solid #e33b29;
@@ -300,8 +311,24 @@ margin-left: 200px;
   position: absolute;
   margin-right: 50px;
   margin-left: 600px;
-  margin-top: -300px;
+  margin-top: -378px;
 }
 .sally{
   margin-top: -5px;
 }
+.musicas{
+  background: transparent;
+  border-radius: 36px;
+  border-color: #e33b29;
+  margin-top: 5px;
+  
+}
+.div-musica{
+  margin-left: 600px;
+ 
+}
+.tam-bot{
+  width: 25px;
+  height: 25px;
+}
+

@@ -2,11 +2,11 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="shortcut icon" href="../assets/icon/favicon2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/imgs/patch-bordado-filme-carros-raio-relampago-mcqueen.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AquaTech | Dashboards</title>
+    <title>Carros Favoritos</title>
 
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/dashboards.css">
@@ -220,7 +220,7 @@
                 data: [],
                 fill: false,
                 borderColor: 'rgb(75, 192, 192)',
-                backgroundColor: '#e33b29',
+                backgroundColor: [],
                 tension: 0.1
             }]
         };
@@ -234,6 +234,24 @@
             var registro = resposta[i];
             labels.push(registro.carroFav);
             dados.datasets[0].data.push(registro.quantidade);
+            if(registro.carroFav == 'McQueen'){
+                            dados.datasets[0].backgroundColor.push('#e33b29')
+                        }
+                        else if(registro.carroFav == 'Mate'){
+                            dados.datasets[0].backgroundColor.push('#7b1d1d')
+                        }
+                        else if(registro.carroFav == 'Sally'){
+                            dados.datasets[0].backgroundColor.push('#4040f3')
+                        }
+                        else if(registro.carroFav == 'Doc Hudson'){
+                            dados.datasets[0].backgroundColor.push('#000062')
+                        }
+                        else if(registro.carroFav == 'Chick Hicks'){
+                            dados.datasets[0].backgroundColor.push('#0cf320')
+                        }
+                        else if(registro.carroFav == 'The King'){
+                            dados.datasets[0].backgroundColor.push('#0cf3e0')
+                        }
         }
 
         console.log('----------------------------------------------')
@@ -298,6 +316,24 @@
                         var registro = novoRegistro[i];
                         labels.push(registro.carroFav);
                         dados.datasets[0].data.push(registro.quantidade);
+                        if(registro.carroFav == 'McQueen'){
+                            dados.datasets[0].backgroundColor.push('#e33b29')
+                        }
+                        else if(registro.carroFav == 'Mate'){
+                            dados.datasets[0].backgroundColor.push('#7b1d1d')
+                        }
+                        else if(registro.carroFav == 'Sally'){
+                            dados.datasets[0].backgroundColor.push('#4040f3')
+                        }
+                        else if(registro.carroFav == 'Doc Hudson'){
+                            dados.datasets[0].backgroundColor.push('#000062')
+                        }
+                        else if(registro.carroFav == 'Chick Hicks'){
+                            dados.datasets[0].backgroundColor.push('#0cf320')
+                        }
+                        else if(registro.carroFav == 'The King'){
+                            dados.datasets[0].backgroundColor.push('#0cf3e0')
+                        }
                     }
                     myChart.update();
 
