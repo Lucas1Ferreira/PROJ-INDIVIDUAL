@@ -274,7 +274,8 @@ body {
 }
 
 canvas {
-  width: 100% !important;
+  width: 80% !important;
   height: 80% !important;
-  margin-left: 10px;
+  margin-left: 80px;
+  margin-top: 80px;
 }
